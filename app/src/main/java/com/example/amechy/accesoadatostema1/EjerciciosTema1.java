@@ -16,20 +16,23 @@ public class EjerciciosTema1 extends AppCompatActivity implements View.OnClickLi
 
     @Override
     public void onClick(View view) {
+
         switch (view.getId()) {
             case R.id.btnEjercicio1:
                 startActivity(new Intent(this,Divisas.class));
                 break;
             case R.id.btnEjercicio2:
-                startActivity(new Intent(this,MostrarWeb.class));
+
                 break;
             case R.id.btnEjercicio3:
                 startActivity(new Intent(this,ContadorDeCafe.class));
                 break;
             case R.id.btnEjercicio4:
+                startActivity(new Intent(this,MostrarWeb.class));
                 break;
             case R.id.btnEjercicio5:
                 break;
+
         }
     }
 }

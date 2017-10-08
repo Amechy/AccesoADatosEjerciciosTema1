@@ -1,14 +1,11 @@
 package com.example.amechy.accesoadatostema1;
 
-import android.content.Context;
+
 import android.os.Bundle;
 import android.support.annotation.IdRes;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -69,8 +66,7 @@ public class Divisas extends AppCompatActivity implements View.OnClickListener {
 
         @Override
         public void onClick(View view) {
-            InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
-            imm.hideSoftInputFromWindow(etxCambioActual.getWindowToken(), 0);
+
             if (etxCambioActual.getText().toString().length() > 0 && Double.parseDouble(etxCambioActual.getText().toString())> 0){
                 valorDivisa = Double.parseDouble(etxCambioActual.getText().toString());
             }
