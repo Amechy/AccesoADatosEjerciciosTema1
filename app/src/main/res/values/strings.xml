@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AccesoADatosTema1</string>
+    <string name="btnEjercicio1">Ejercicio 1</string>
+    <string name="btnEjercicio2">Ejercicio 2</string>
+    <string name="btnEjercicio3">Ejercicio 3</string>
+    <string name="btnEjercicio4">Ejercicio 4</string>
+    <string name="btnEjercicio5">Ejercicio 5</string>
+    <string name="title_activity_divisas">Divisas</string>
+
+
+    <!--Divisas-->
+    <string name="dolares">Dólares: </string>
+    <string name="euro">Euros: </string>
+    <string name="dolaresAEuros">Dólares a Euros</string>
+    <string name="eurosADolares">Euros a Dólares</string>
+    <string name="cambioDolarEuros">Cambio actual: </string>
+
+    <!--Contador de Cafes-->
+
+    <string name="txvCafe">Cafés:</string>
+    <string name="txvNCafes">0</string>
+    <string name="bntComenzar">comenzar</string>
+    <string name="btnMenos">-</string>
+    <string name="txvTemporizador">5:00</string>
+</resources>
