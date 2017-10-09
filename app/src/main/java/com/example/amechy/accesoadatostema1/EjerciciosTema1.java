@@ -28,7 +28,7 @@ public class EjerciciosTema1 extends AppCompatActivity implements View.OnClickLi
                 startActivity(new Intent(this,ContadorDeCafe.class));
                 break;
             case R.id.btnEjercicio4:
-
+                startActivity(new Intent(this,Piano.class));
                 break;
 
 
